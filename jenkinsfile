@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('BuildStage') {
+            steps {
+                echo 'Building success'
+            }
+        stage('PublishStage') {
+            steps {
+                echo 'Publishing success'
+            }
+        }
+    }
+}
