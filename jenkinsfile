@@ -6,11 +6,11 @@ pipeline {
             steps {
                 echo 'Building success'
             }
+        }
         stage('PublishStage') {
             steps {
                 echo 'Publishing success'
             }
         }
     }
-}
 }
